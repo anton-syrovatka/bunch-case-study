@@ -25,8 +25,6 @@ function App() {
     toDate: "2021-12-31",
   });
 
-  // console.log({ loading, loadedKpiKeys });
-
   const selectKpi = (kpiKey, isChecked) => {
     if (isChecked) {
       setSelectedKpiKeys((keys) => [...keys, kpiKey]);

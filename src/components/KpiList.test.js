@@ -10,7 +10,7 @@ test("renders empty list", () => {
   expect(listElement.hasChildNodes()).toBeFalsy();
 });
 
-test("renders full list", () => {
+test("renders list with 2 items", () => {
   render(
     <KpiList
       kpiDefs={[
