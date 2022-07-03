@@ -4,7 +4,7 @@
 
 - `npm run install`
 
-## How to build client
+## How to start
 
 - `npm run start`
 
